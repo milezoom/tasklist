@@ -2,7 +2,7 @@
 
 ## About
 
-WIP todolist desktop app, using [Wails Framework](wails.io)
+WIP todolist desktop app, using [Wails Framework](https://wails.io)
 
 ## Live Development
 
