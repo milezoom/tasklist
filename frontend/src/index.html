@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tasklist</title>
+    <link rel="stylesheet" href="/bulma-rtl.min.css" />
+    <link rel="stylesheet" href="/main.css" />
+  </head>
+
+  <body>
+    <div id="app" class="app is-flex">
+      <div id="app-logo" class="is-flex is-justify-content-flex-start is-align-items-center">
+        <figure>
+          <img id="app-logo-img" src="/assets/images/logo.svg" alt="tasklist-logo">
+        </figure>
+        <div id="app-logo-text" class="is-size-2">
+            Tasklist
+        </div>
+      </div>
+      <div id="task-list" class="is-align-item-stretch is-size-4"></div>
+      <div class="is-align-items-flex-end mt-auto">
+        <div class="columns is-vcentered">
+          <input id="task-desc" type="text" class="column is-8 input is-medium" placeholder="remind me to...">
+          <div class="column is-1 has-text-centered">at</div>
+          <input id="task-time" type="text" class="column is-2 input is-medium" placeholder="20:30">
+          <div class="column is-1">
+            <button id="btn-add" class="button" onclick="addTask()">
+              <figure class="image">
+                <img src="/assets/images/icon-plus.svg" alt="icon-plus">
+              </figure>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/main.js"></script>
+  </body>
+</html>
